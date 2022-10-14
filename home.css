@@ -1,6 +1,7 @@
 body {
     font-family: 'Biryani', sans-serif;
-    background-image: url('https://kartikajayapbiologi14.files.wordpress.com/2015/05/background-stripes-pink-putih.png');
+    background-image: url('https://img.freepik.com/premium-photo/green-monstera-leaves-pink-background-have-copy-space-design-your-work_35956-3602.jpg');
+    background-size: cover;
 }
 ul {
     display: flex;
@@ -37,17 +38,23 @@ a:link {
   }
 
 section {
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 25px;
+    border: 2px solid rgba(255, 74, 161, 0.867);
+    box-shadow: rgb(255, 74, 161) 5px 5px 35px;
     border-radius: 20px;
     margin: 75px;
     padding: 50px;
-    background-color: rgb(230, 228, 225);
+    background-color: rgba(230, 228, 225, 0.312);
 
 }
 img{
     width: 20%;
     height: auto;
-    align-self:flex-end;
+    align-self:center;
+    background-color: rgba(245, 245, 245, 0.621);
+    border-radius: 50px;
+    padding-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
 
 h1{
@@ -57,6 +64,7 @@ h1{
     margin-bottom: 5px;
     margin-left: 300px;
     text-align: start;
+    color: whitesmoke;
 }
 h2{
     font-size: 40px;
@@ -73,7 +81,7 @@ button{
   font-size: 20px;
   font-weight: bolder;
   padding: 25px;
- margin-left: 50%;
+  margin-left: 450px;
 }
 button:hover{
   background-color: black;
@@ -82,7 +90,6 @@ button:hover{
 div{
   display: flex;
   flex-direction: row;
-  
 }
 
 @media only screen and (max-width: 572px) {
