@@ -13,25 +13,25 @@ ul {
 
 }
 a:link {
-    color: black;
+    color: rgb(255,0,119);
     background-color: transparent;
     text-decoration: none;
   }
   
   a:visited {
-    color: pink;
+    color: rgb(0, 0, 0);
     background-color: transparent;
     text-decoration: none;
   }
   
   a:hover {
-    color: red;
+    color: green;
     background-color: transparent;
     text-decoration: underline;
   }
   
   a:active {
-    color: yellow;
+    color: rgb(0, 255, 55);
     background-color: transparent;
     text-decoration: underline;
   }
@@ -42,37 +42,38 @@ section {
     margin: 75px;
     padding: 50px;
     background-color: rgb(230, 228, 225);
-    display: flex;
-    flex-direction: column;
 
 }
 img{
     width: 20%;
     height: auto;
     align-self:flex-end;
-
 }
+
 h1{
-    font-size: 25px;
-    font-weight: 300;
-    margin-left: 30px;
-    margin-top: 50px;
-    
+    font-family: 'ephesis', cursive;
+    font-size: 100px; 
+    margin-top: 25px;
+    margin-bottom: 5px;
+    margin-left: 300px;
+    text-align: start;
 }
 h2{
     font-size: 40px;
     font-weight: 800;
-    padding-left: 60px;
-    padding-right: 60px;
-    align-self: center;
+    margin-top: 2px;
+    margin-left: 300px;
+    margin-right: 0px;
+    padding-right: 0px;
+    text-align:start;
 }
 button{
   border: 2px solid black;
   border-radius: 50px;
   font-size: 20px;
   font-weight: bolder;
-  align-self: center;
-  padding: 25px
+  padding: 25px;
+ margin-left: 50%;
 }
 button:hover{
   background-color: black;
@@ -81,4 +82,19 @@ button:hover{
 div{
   display: flex;
   flex-direction: row;
+  
+}
+
+@media only screen and (max-width: 572px) {
+  h1{
+    font-size: 50px;
+    margin-left: 30px;
+  }
+  h2{
+    font-size: 30px;
+    margin-left: 30px
+  }
+  button{
+    margin-left: 50px;
+  }
 }

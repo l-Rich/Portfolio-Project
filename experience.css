@@ -1,0 +1,54 @@
+body {
+    font-family: 'Biryani', sans-serif;
+    background-image: url('https://kartikajayapbiologi14.files.wordpress.com/2015/05/background-stripes-pink-putih.png');
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-right: 30px;
+}
+.menu{
+    color: black;
+
+}
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+div {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 25px;
+    border-radius: 20px;
+    margin: 75px;
+    padding: 50px;
+    background-color: rgb(230, 228, 225);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+img{
+    width: 40%;
+    height: auto;
+    align-self:flex-end;
+
+}
